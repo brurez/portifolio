@@ -24,7 +24,8 @@ app.use('/scripts', express.static(path.join(__dirname, '..', 'node_modules')));
 // Routes
 app.use('/', routes);
 
-reload(app);
+if( process.env.NODE_ENV !== 'production' )
+  reload(app);
 
 // Catch 404 and forward to error handler
 app.use((req, res, next) => {
