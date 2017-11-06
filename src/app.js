@@ -3,6 +3,7 @@ import path from 'path';
 import logger from 'morgan';
 import bodyParser from 'body-parser';
 import hbs from 'hbs';
+import compression from 'compression';
 
 import routes from './routes';
 
@@ -17,6 +18,7 @@ app.use(logger('dev', {
 }));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
+app.use(compression());
 app.use('/public', express.static(path.join(__dirname, '..', 'public')));
 app.use('/scripts', express.static(path.join(__dirname, '..', 'node_modules')));
 
