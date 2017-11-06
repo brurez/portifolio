@@ -4,7 +4,7 @@
   "description": "Meu website contendo informações sobre mim e meus projetos",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vmasto/express-babel.git"
+    "url": "git+https://github.com/brurez/portifolio.git"
   },
   "author": "Bruno de Rezende",
   "license": "MIT",
@@ -21,8 +21,8 @@
     "dev:client": "webpack --watch",
     "clean": "rimraf dist",
     "build": "npm-run-all --parallel build:*",
-    "build:server": "npm run clean && mkdir -p dist && babel src -s -D -d dist",
-    "build:client": "webpack -p --progress",
+    "build:server": "npm run clean && mkdir dist && babel src -s -D -d dist --ignore src/client",
+    "build:client": "webpack -p",
     "test": "jest --watch"
   },
   "keywords": [
@@ -76,9 +76,9 @@
     "testEnvironment": "node"
   },
   "bugs": {
-    "url": "https://github.com/vmasto/express-babel/issues"
+    "url": "https://github.com/brurez/portifolio/issues"
   },
-  "homepage": "https://github.com/vmasto/express-babel#readme",
+  "homepage": "https://brurez.herokuapp.com/",
   "directories": {
     "test": "test"
   }

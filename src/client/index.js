@@ -9,10 +9,7 @@ new Typed('.type-here', {
   ],
   typeSpeed: 60,
   backSpeed: 40,
-  smartBackspace: true,
-  onComplete: () => {
-
-  },
+  smartBackspace: true
 });
 
 scrollDevagar();
