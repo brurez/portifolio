@@ -40,6 +40,7 @@
     "jquery": "^3.2.1",
     "morgan": "^1.7.0",
     "normalize.css": "^7.0.0",
+    "npm-run-all": "^4.1.1",
     "rimraf": "^2.6.1",
     "typed.js": "^2.0.6"
   },
@@ -52,7 +53,6 @@
     "dotenv": "^4.0.0",
     "jest": "^21.0.2",
     "nodemon": "^1.11.0",
-    "npm-run-all": "^4.1.1",
     "reload": "^2.2.2",
     "supertest": "^3.0.0",
     "webpack": "^3.8.1"
