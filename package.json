@@ -22,7 +22,7 @@
     "clean": "rimraf dist",
     "build": "npm-run-all --parallel build:*",
     "build:server": "npm run clean && mkdir -p dist && babel src -s -D -d dist",
-    "build:client": "",
+    "build:client": "webpack -p --progress",
     "test": "jest --watch"
   },
   "keywords": [

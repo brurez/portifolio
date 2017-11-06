@@ -4,6 +4,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
+    <link rel="apple-touch-icon" sizes="180x180" href="/public/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/public/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/public/images/favicon-16x16.png">
+    <link rel="manifest" href="/public/images/manifest.json">
+    <link rel="mask-icon" href="/public/images/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/public/images/favicon.ico">
+    <meta name="msapplication-config" content="/public/images/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>Bruno de Rezende a.k.a. Brurez - Javascript Developer</title>
+
     <link rel="stylesheet" href="/scripts/normalize.css/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:300,500,600" rel="stylesheet">
     <link rel="stylesheet" href="public/font-awesome-4.7.0/css/font-awesome.min.css">
@@ -14,28 +25,31 @@
 
   <body>
     <div class="container">
-      <p class="type">> <span class="type-here"></span></p>
-      <div class="head">
-        <div class="pic"><img src="/public/images/eu-circulo.jpg" alt="Bruno"/> </div>
-        <div class="content">
-          Sou especializado no desenvolvimento de aplicações
-          web utilizando as últimas tecnologias Javascript
-          como <strong>React</strong>, <strong>Redux</strong>, <strong>ExpressJS</strong> e <strong>MongoDB</strong>.
+      <header>
+        <h1>Bruno de Rezende - Brurez - Desenvolvedor Javascript</h1>
+        <p class="type">> <span class="type-here"></span></p>
+        <div class="head">
+          <div class="pic"><img src="/public/images/eu-circulo.jpg" alt="Bruno"/> </div>
+          <div class="content">
+            Sou especializado no desenvolvimento de aplicações
+            web utilizando as últimas tecnologias Javascript
+            como <strong>React</strong>, <strong>Redux</strong>, <strong>ExpressJS</strong> e <strong>MongoDB</strong>.
+          </div>
         </div>
-      </div>
-      <div class="head-contato">
-        <div class="destaque" ><i class="fa fa-phone"></i> +55 13 99765-9707</div>
-        <div class="destaque" ><i class="fa fa-envelope-o"></i> brurez@hotmail.com</div>
-      </div>
-      <div class="menu">
+        <div class="head-contato">
+          <div class="destaque" ><i class="fa fa-phone"></i> +55 13 99765-9707</div>
+          <div class="destaque" ><i class="fa fa-envelope-o"></i> brurez@hotmail.com</div>
+        </div>
+      </header>
+      <nav class="menu">
         <div class="item"><a href="#projetos"><i class="fa fa-flask" ></i> Projetos</a></div>
         <div class="item"><a href="#habilidades"><i class="fa fa-line-chart" ></i> Habilidades</a></div>
         <div class="item"><a href="#sobre"><i class="fa fa-user-secret" ></i> Sobre Mim</a></div>
         <div class="item"><a href="#contato"><i class="fa fa-envelope" ></i> Contato</a></div>
-        <div class="item"><a href="#"><i class="fa fa-github" ></i> Github</a></div>
-      </div>
-      <div class="pages">
-        <div id="projetos" class="page">
+        <div class="item"><a href="#github"><i class="fa fa-github" ></i> Github</a></div>
+      </nav>
+      <main class="pages">
+        <section id="projetos" class="page">
           <h2><i class="fa fa-flask" ></i> Projetos Atuais</h2>
 
           <div class="item">
@@ -116,16 +130,16 @@
             <span class="label"><i class="devicon-react-original colored"></i> React</span>
           </div>
 
-        </div>
+        </section>
         <!-- ---------------------------------------- -->
-        <div id="habilidades" class="page">
+        <section id="habilidades" class="page">
           <h2><i class="fa fa-line-chart" ></i> Habilidades</h2>
           <div id="skills">
             <!-- Thank you http://w3lessons.info/2013/06/04/skill-bar-with-jquery-css3/ -->
           </div>
-        </div>
+        </section>
         <!-- ---------------------------------------- -->
-        <div id="sobre" class="page">
+        <section id="sobre" class="page">
           <img style="border: none" src="/public/images/sobre.jpg" alt="sobre"/>
           <h2><i class="fa fa-user-secret" ></i> Sobre Mim</h2>
           <p>Tenho 36 anos e desde 2009 tenho trabalhado tempo integral com
@@ -134,7 +148,7 @@
           <div class="item">
             <h3><i class="fa fa-flag" ></i> 2009 / 2013 - Projeto Aikade</h3>
             <img class="space-right" src="/public/images/aikade-ss.jpg" alt="aikade"/>
-            <p>Sócio fundador e responsável pela parte técnica da maior loja virtual de games da América Latina até então.
+            <p>Fundador e responsável pela parte técnica da maior loja virtual de games da América Latina até então.
               Com sede no Brasil e Estados Unidos, mais de 40 funcionários, eu era o responsável pelo desenvolvimento em PHP, Javascript e da coordenação de toda equipe técnica.</p>
 
             <p>Projeto baseado na ferramenta de E-commerce de código aberto Prestashop. Fui responsável pela criação de inúmeros módulos em PHP
@@ -160,11 +174,11 @@
             <p>Desde 2016 tenho me dedicado a criação de aplicativos web utilizando tecnologias como React, Redux, ExpressJS, MongoDB e também Meteor.</p>
           </div>
 
-        </div>
+        </section>
 
         <!-- ---------------------------------------- -->
 
-        <div id="contato" class="page">
+        <section id="contato" class="page">
           <h2><i class="fa fa-envelope" ></i> Contato</h2>
           <div class="cols">
 
@@ -190,9 +204,9 @@
             </div>
           </div>
 
-        </div>
+        </section>
         <!-- ---------------------------------------- -->
-        <div id="github" class="page">
+        <section id="github" class="page">
           <h2><i class="fa fa-github"></i> Github</h2>
           <a class="destaque bigger" href="https://github.com/brurez">
             https://github.com/brurez <i class="fa fa-arrow-right"></i>
@@ -207,9 +221,9 @@
             </li>
           </ul>
 
-        </div>
+        </section>
 
-        </div>
+        </main>
       </div>
     </div>
 

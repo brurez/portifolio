@@ -16,6 +16,10 @@ strong {
   font-weight: 500;
 }
 
+h1 {
+  font-size: 0;
+}
+
 h1, h2, h3, h4 {
   font-weight: 600;
 }
@@ -83,6 +87,7 @@ ul {
   font-size: 1.6em;
   font-weight: 500;
   min-height: 2.8em;
+  margin-top: 0.6em;
 }
 .head, .head-contato {
   font-size: 20px;
@@ -116,6 +121,7 @@ ul {
   z-index: 1000;
   box-shadow: 0 1px 1px #BBB;
   flex-wrap: wrap;
+  flex-direction: column;
 }
 .menu > .item {
   flex: 1 1 auto;
@@ -247,6 +253,9 @@ ul {
 }
 
 @media (min-width: 500px){
+  .menu {
+    flex-direction: row;
+  }
   .projeto > div:last-child {
     margin-left: 20px;
   }
