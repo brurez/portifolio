@@ -24,10 +24,6 @@ var _hbs = require('hbs');
 
 var _hbs2 = _interopRequireDefault(_hbs);
 
-var _reload = require('reload');
-
-var _reload2 = _interopRequireDefault(_reload);
-
 var _routes = require('./routes');
 
 var _routes2 = _interopRequireDefault(_routes);
@@ -51,14 +47,7 @@ app.use('/scripts', _express2.default.static(_path2.default.join(__dirname, '..'
 // Routes
 app.use('/', _routes2.default);
 
-if (process.env.NODE_ENV !== 'production') (0, _reload2.default)(app);
-
-// Catch 404 and forward to error handler
-app.use((req, res, next) => {
-  const err = new Error('Not Found');
-  err.status = 404;
-  next(err);
-});
+if (process.env.NODE_ENV !== 'production') require('reload')(app);
 
 exports.default = app;
 //# sourceMappingURL=app.js.map

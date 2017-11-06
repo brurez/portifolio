@@ -1,3 +1,13 @@
+/* Border-Box */
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+}
+
 html, body {
   height: 100%;
 }
@@ -223,7 +233,7 @@ ul {
   width: 60%;
 }
 .col40 {
-  width: 40%;
+  /* width: 40%; */
   padding: 0 0 0 40px;
 }
 
@@ -239,9 +249,24 @@ ul {
   display: inline-block;
 }
 
+.sucesso {
+  border-color: green;
+  color: green;
+}
+.erro {
+  border-color: red;
+  color: red;
+}
+
 .form {
   box-shadow: 1px 1px 14px rgba(0, 0, 0, 0.2);
   min-width: 300px;
+}
+#form-msg{
+  text-align: center;
+}
+#form-msg > div {
+  font-weight: 600;
 }
 
 #github {

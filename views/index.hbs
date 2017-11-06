@@ -38,7 +38,7 @@
         </div>
         <div class="head-contato">
           <div class="destaque" ><i class="fa fa-phone"></i> +55 13 99765-9707</div>
-          <div class="destaque" ><i class="fa fa-envelope-o"></i> brurez@hotmail.com</div>
+          <a class="destaque" href="mailto:brurez@hotmail.com"><i class="fa fa-envelope-o"></i> brurez@hotmail.com</a>
         </div>
       </header>
       <nav class="menu">
@@ -182,12 +182,15 @@
           <div class="cols">
 
             <div class="col60">
-              <div class="form">
-                <input placeholder="NOME"/>
-                <input placeholder="EMAIL"/>
-                <input placeholder="TELEFONE"/>
-                <textarea placeholder="MENSAGEM"></textarea>
+              <form id="form" class="form">
+                <input name="name" placeholder="NOME"/>
+                <input type="email" name="from" placeholder="EMAIL"/>
+                <input name="phone" placeholder="TELEFONE"/>
+                <textarea name="msg" placeholder="MENSAGEM"></textarea>
                 <button id="submit" type="submit">ENVIAR <i class="fa fa-paper-plane"></i></button>
+              </form>
+              <div id="form-msg">
+
               </div>
             </div>
 

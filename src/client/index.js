@@ -1,4 +1,5 @@
 import Typed from 'typed.js';
+import events from './events'
 
 import scrollDevagar from './scrollDevagar';
 
@@ -53,6 +54,8 @@ const interval = setInterval(() => {
     clearInterval(interval);
   }
 }, 300);
+
+events();
 
 function isScrolledIntoView(el) {
   const { top, bottom } = el.getBoundingClientRect();

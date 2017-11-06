@@ -31,12 +31,6 @@ input:hover::placeholder, textarea:hover::placeholder {
   font-size: 0.875em;
 }
 
-#form {
-  position: relative;
-  width: 500px;
-  margin: 50px auto 100px auto;
-}
-
 input {
   font-family: 'Source Code Pro', monospace;
   font-size: 0.875em;
