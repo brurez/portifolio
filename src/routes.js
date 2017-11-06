@@ -7,7 +7,7 @@ sgMail.setApiKey(config.sendGridApiKey);
 const routes = Router();
 
 routes.get('/', (req, res) => {
-  res.render('index');
+  res.render('index', { dev: process.env.NODE_ENV !== 'production' });
 });
 
 routes.post('/api/send_email', (req, res) => {
@@ -41,6 +41,5 @@ routes.post('/api/send_email', (req, res) => {
     return result.replace(/\r\n/g, "<br />").replace(/\n/g, "<br />");
   }
 });
-
 
 export default routes;

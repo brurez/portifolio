@@ -15,6 +15,8 @@ new Typed('.type-here', {
 
 scrollDevagar();
 
+document.querySelector('#ano').innerHTML = new Date().getFullYear();
+
 const skills = [
   { nome: 'React', p: 100, cor: '#53c1de', icon: '<i class="devicon-react-original"></i>' },
   { nome: 'Redux', p: 95, cor: '#7b4bc1', icon: '<i class="devicon-atom-original"></i>' },
