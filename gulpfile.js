@@ -1,8 +1,8 @@
 const gulp = require('gulp');
-const imagemin = require('gulp-imagemin');
+const image = require('gulp-image');
 
 gulp.task('default', () =>
   gulp.src('public/images/orig/*')
-    .pipe(imagemin())
+    .pipe(image())
     .pipe(gulp.dest('public/images'))
 );
