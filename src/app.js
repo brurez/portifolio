@@ -3,7 +3,6 @@ import path from 'path';
 import logger from 'morgan';
 import bodyParser from 'body-parser';
 import hbs from 'hbs';
-import reload from 'reload';
 
 import routes from './routes';
 
@@ -25,6 +24,6 @@ app.use('/scripts', express.static(path.join(__dirname, '..', 'node_modules')));
 app.use('/', routes);
 
 if( process.env.NODE_ENV !== 'production' )
-  reload(app);
+  require('reload')(app);
 
 export default app;
