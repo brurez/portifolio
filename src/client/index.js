@@ -6,7 +6,7 @@ import scrollDevagar from './scrollDevagar';
 new Typed('.type-here', {
   strings: [
     'Olá^200, meu nome é Bruno de Rezende.^800 Sou programador Javascript Front-End e Back-End.',
-    'Olá, meu nome é Bruno de Rezende. Sou programador Javascript Full-stack.'
+    'Olá, meu nome é Bruno de Rezende. Sou programador Javascript Full-Stack.'
   ],
   typeSpeed: 60,
   backSpeed: 40,

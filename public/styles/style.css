@@ -9,7 +9,7 @@ html {
 }
 
 html, body {
-  height: 100%;
+  /* height: 100%; */
 }
 
 body {
@@ -74,6 +74,7 @@ footer {
   text-align: center;
   padding: 10px 0;
   margin: 40px 0 0;
+  overflow-x: hidden;
 }
 
 footer a {
@@ -105,10 +106,10 @@ ul {
   display: flex;
 }
 .head > .pic > img{
-  height: 100px;
   width: 100px;
   border: none;
   box-shadow: none;
+  height: auto;
 }
 .head > .content {
   flex: 1 1;
@@ -251,6 +252,10 @@ ul {
   border: 1px solid #CCC;
   border-radius: 4px;
   display: inline-block;
+  overflow: hidden;
+  /* white-space: nowrap; */
+  text-overflow: ellipsis;
+  max-width: 100%;
 }
 
 .sucesso {
@@ -260,6 +265,13 @@ ul {
 .erro {
   border-color: red;
   color: red;
+}
+.ib {
+  display: inline-block;
+  vertical-align: middle;
+}
+.ib > ul {
+  margin: 0;
 }
 
 .form {

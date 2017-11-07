@@ -1000,7 +1000,7 @@ var _scrollDevagar2 = _interopRequireDefault(_scrollDevagar);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 new _typed2.default('.type-here', {
-  strings: ['Olá^200, meu nome é Bruno de Rezende.^800 Sou programador Javascript Front-End e Back-End.', 'Olá, meu nome é Bruno de Rezende. Sou programador Javascript Full-stack.'],
+  strings: ['Olá^200, meu nome é Bruno de Rezende.^800 Sou programador Javascript Front-End e Back-End.', 'Olá, meu nome é Bruno de Rezende. Sou programador Javascript Full-Stack.'],
   typeSpeed: 60,
   backSpeed: 40,
   smartBackspace: true
