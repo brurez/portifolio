@@ -10,7 +10,7 @@ export default () => {
       name: document.querySelector('[name=name]').value,
       from: document.querySelector('[name=from]').value,
       phone: document.querySelector('[name=phone]').value,
-      msg: document.querySelector('[name=msg]').value
+      msg: document.querySelector('[name=msg]').value,
     };
 
     if (!data.msg) {
@@ -21,6 +21,7 @@ export default () => {
       setError('É preciso fornecer um email');
       return;
     }
+    
     axios
       .post('/api/send_email', data)
       .then(res => {

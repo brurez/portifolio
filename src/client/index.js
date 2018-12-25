@@ -5,8 +5,8 @@ import scrollDevagar from './scrollDevagar';
 
 new Typed('.type-here', {
   strings: [
-    'Olá^200, meu nome é Bruno de Rezende.^800 Sou programador Javascript Front-End e Back-End.',
-    'Olá, meu nome é Bruno de Rezende. Sou programador Javascript Full-Stack.'
+    'Hi^200, my name is Bruno de Rezende.^800 I am a Javascript developer skilled at working with both front-end and back-end.',
+    'Hi, my name is Bruno de Rezende. I am what is called nowadays a fullstack developer.'
   ],
   typeSpeed: 60,
   backSpeed: 40,
@@ -79,8 +79,14 @@ const skills = [
     icon: '<i class="devicon-javascript-plain"></i>'
   },
   {
+    nome: 'Ruby',
+    p: 60,
+    cor: '#CC342D',
+    icon: '<i class="devicon-ruby-plain"></i>'
+  },
+  {
     nome: 'PHP',
-    p: 80,
+    p: 70,
     cor: '#8892bf',
     icon: '<i class="devicon-php-plain"></i>'
   },
@@ -92,7 +98,7 @@ const skills = [
   },
   {
     nome: 'Sass/Less',
-    p: 50,
+    p: 80,
     cor: '#c69',
     icon: '<i class="devicon-sass-original"></i>'
   },
@@ -103,22 +109,10 @@ const skills = [
     icon: '<i class="devicon-html5-plain"></i>'
   },
   {
-    nome: 'PHPStorm',
-    p: 90,
-    cor: '#cc3ed0',
-    icon: '<i class="devicon-phpstorm-plain"></i>'
-  },
-  {
     nome: 'Git',
-    p: 70,
+    p: 80,
     cor: '#f0502f',
     icon: '<i class="devicon-git-plain"></i>'
-  },
-  {
-    nome: 'Photoshop',
-    p: 10,
-    cor: '#80b5e2',
-    icon: '<i class="devicon-photoshop-plain"></i>'
   }
 ];
 
