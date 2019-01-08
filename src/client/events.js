@@ -21,7 +21,7 @@ export default () => {
       setError('É preciso fornecer um email');
       return;
     }
-    
+
     axios
       .post('/api/send_email', data)
       .then(res => {
