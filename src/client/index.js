@@ -56,7 +56,7 @@ const skills = [
   },
   {
     nome: 'SQL',
-    p: 50,
+    p: 60,
     cor: '#00618a',
     icon: '<i class="devicon-mysql-plain"></i>',
   },
@@ -68,14 +68,20 @@ const skills = [
   },
   {
     nome: 'Webpack',
-    p: 66,
+    p: 80,
     cor: '#1d72b3',
     icon: '<i class="devicon-webpack-plain"></i>',
   },
   {
     nome: 'JS ES6',
-    p: 90,
+    p: 100,
     cor: '#f5da55',
+    icon: '<i class="devicon-javascript-plain"></i>',
+  },
+  {
+    nome: 'Typescript',
+    p: 70,
+    cor: '#294e80',
     icon: '<i class="devicon-javascript-plain"></i>',
   },
   {
@@ -92,7 +98,7 @@ const skills = [
   },
   {
     nome: 'CSS3',
-    p: 80,
+    p: 90,
     cor: '#1b73ba',
     icon: '<i class="devicon-css3-plain"></i>',
   },
@@ -104,7 +110,7 @@ const skills = [
   },
   {
     nome: 'HTML5',
-    p: 90,
+    p: 100,
     cor: '#e44d26',
     icon: '<i class="devicon-html5-plain"></i>',
   },
