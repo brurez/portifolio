@@ -5,7 +5,7 @@ import scrollDevagar from './scrollDevagar';
 
 new Typed('.type-here', {
   strings: [
-    'Hi^200, my name is Bruno de Rezende.^800 I am a Javascript developer skilled at working with both front-end and back-end.',
+    'Hi^200, my name is Bruno de Rezende.^800 I am a Web developer skilled working with front-end and back-end.',
     'Hi, my name is Bruno de Rezende. I am what is called nowadays a fullstack developer.',
   ],
   typeSpeed: 60,
@@ -19,61 +19,7 @@ document.querySelector('#ano').innerHTML = new Date().getFullYear();
 
 const skills = [
   {
-    nome: 'React',
-    p: 100,
-    cor: '#53c1de',
-    icon: '<i class="devicon-react-original"></i>',
-  },
-  {
-    nome: 'Redux',
-    p: 95,
-    cor: '#7b4bc1',
-    icon: '<i class="devicon-atom-original"></i>',
-  },
-  {
-    nome: 'MongoDB',
-    p: 70,
-    cor: '#449a45',
-    icon: '<i class="devicon-mongodb-plain"></i>',
-  },
-  {
-    nome: 'Express',
-    p: 80,
-    cor: '#555',
-    icon: '<i class="devicon-express-original"></i>',
-  },
-  {
-    nome: 'Meteor',
-    p: 95,
-    cor: '#de4f4f',
-    icon: '<i class="devicon-meteor-plain"></i>',
-  },
-  {
-    nome: 'Wordpress',
-    p: 90,
-    cor: '#0087be',
-    icon: '<i class="devicon-wordpress-plain"></i>',
-  },
-  {
-    nome: 'SQL',
-    p: 60,
-    cor: '#00618a',
-    icon: '<i class="devicon-mysql-plain"></i>',
-  },
-  {
-    nome: 'Gulp',
-    p: 80,
-    cor: '#CF4647',
-    icon: '<i class="devicon-gulp-plain"></i>',
-  },
-  {
-    nome: 'Webpack',
-    p: 80,
-    cor: '#1d72b3',
-    icon: '<i class="devicon-webpack-plain"></i>',
-  },
-  {
-    nome: 'JS ES6',
+    nome: 'Javascript',
     p: 100,
     cor: '#f5da55',
     icon: '<i class="devicon-javascript-plain"></i>',
@@ -86,15 +32,92 @@ const skills = [
   },
   {
     nome: 'Ruby',
-    p: 60,
+    p: 80,
     cor: '#CC342D',
     icon: '<i class="devicon-ruby-plain"></i>',
   },
   {
     nome: 'PHP',
-    p: 70,
+    p: 60,
     cor: '#8892bf',
     icon: '<i class="devicon-php-plain"></i>',
+  },
+  {
+    nome: 'C++',
+    p: 60,
+    cor: '#9C033A',
+    icon: '<i class="devicon-cplusplus-plain"></i>\n',
+  },
+  {
+    nome: 'Python',
+    p: 40,
+    cor: '#FFD845',
+    icon: '<i class="devicon-python-plain"></i>',
+  },
+  {
+    nome: 'SQL',
+    p: 70,
+    cor: '#00618a',
+    icon: '<i class="devicon-mysql-plain"></i>',
+  },
+  {
+    nome: 'MongoDB',
+    p: 70,
+    cor: '#449a45',
+    icon: '<i class="devicon-mongodb-plain"></i>',
+  },
+  {
+    nome: 'Redis',
+    p: 50,
+    cor: '#D82C20',
+    icon: '<i class="devicon-redis-plain"></i>',
+  },
+  {
+    nome: 'Microservices',
+    p: 60,
+    cor: '#000000',
+    icon: '<i class="devicon-codepen-plain"></i>',
+  },
+  {
+    nome: 'AWS',
+    p: 60,
+    cor: '#F7A80D',
+    icon: '<i class="devicon-amazonwebservices-original"></i>',
+  },
+  {
+    nome: 'GCP',
+    p: 50,
+    cor: '#587dbd',
+    icon: '<i class="devicon-google-plain"></i>',
+  },{
+    nome: 'M. Learning',
+    p: 35,
+    cor: '#cccccc',
+    icon: '<i class="devicon-illustrator-plain"></i>',
+  },
+  {
+    nome: 'React',
+    p: 100,
+    cor: '#53c1de',
+    icon: '<i class="devicon-react-original"></i>',
+  },
+  {
+    nome: 'Redux',
+    p: 95,
+    cor: '#7b4bc1',
+    icon: '<i class="devicon-atom-original"></i>',
+  },
+  {
+    nome: 'Express',
+    p: 80,
+    cor: '#555',
+    icon: '<i class="devicon-express-original"></i>',
+  },
+  {
+    nome: 'HTML5',
+    p: 100,
+    cor: '#e44d26',
+    icon: '<i class="devicon-html5-plain"></i>',
   },
   {
     nome: 'CSS3',
@@ -109,16 +132,16 @@ const skills = [
     icon: '<i class="devicon-sass-original"></i>',
   },
   {
-    nome: 'HTML5',
-    p: 100,
-    cor: '#e44d26',
-    icon: '<i class="devicon-html5-plain"></i>',
+    nome: 'Gulp',
+    p: 80,
+    cor: '#CF4647',
+    icon: '<i class="devicon-gulp-plain"></i>',
   },
   {
-    nome: 'Git',
+    nome: 'Webpack',
     p: 80,
-    cor: '#f0502f',
-    icon: '<i class="devicon-git-plain"></i>',
+    cor: '#1d72b3',
+    icon: '<i class="devicon-webpack-plain"></i>',
   },
 ];
 

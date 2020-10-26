@@ -387,3 +387,8 @@ ul {
   color:#ffffff;
   color:rgba(0, 0, 0, 0.4);
 }
+
+.job-icons {
+  font-size: 36px;
+  margin-top: 0;
+}
